@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-24",
+  "browser": "155.0.4283.62",
+  "base": "http://localhost:4173/",
+  "checks": [
+    {
+      "name": "Layout 1366×768",
+      "result": "PASS",
+      "detail": "No horizontal overflow; camera bottom 562px, metrics bottom 694px."
+    },
+    {
+      "name": "Layout 1920×1080",
+      "result": "PASS",
+      "detail": "No horizontal overflow; camera bottom 756px, metrics bottom 917px."
+    },
+    {
+      "name": "Layout 390×844",
+      "result": "PASS",
+      "detail": "No horizontal overflow; camera bottom 613px, metrics bottom 1282px."
+    },
+    {
+      "name": "Validation / keyboard dialog",
+      "result": "PASS",
+      "detail": "Incoherent durations rejected; Escape dismisses the modal."
+    },
+    {
+      "name": "Preferences / reset",
+      "result": "PASS",
+      "detail": "Valid preference survives reload; Reset restores 0.21."
+    },
+    {
+      "name": "Keyboard navigation",
+      "result": "PASS",
+      "detail": "Tab moves focus to an interactive control."
+    },
+    {
+      "name": "Camera denial",
+      "result": "PASS",
+      "detail": "Actionable denial status; retry is user initiated."
+    },
+    {
+      "name": "Real model + WASM initialization / inference",
+      "result": "PASS",
+      "detail": "MIRRORED PREVIEW\nWorker · GPU; blank synthetic video correctly reports NO FACE."
+    },
+    {
+      "name": "Measured blank-video performance",
+      "result": "PASS",
+      "detail": "Missing observations appear as gaps.\n5 ms inference · 9.8 updates/s"
+    },
+    {
+      "name": "Fresh context / external network blocked",
+      "result": "PASS",
+      "detail": "Real production model loaded from localhost with empty cache, external routing blocked, and zero external requests."
+    },
+    {
+      "name": "Stop / export",
+      "result": "PASS",
+      "detail": "Test stream tracks stopped; session JSON downloaded."
+    },
+    {
+      "name": "Repeated Start / Stop",
+      "result": "PASS",
+      "detail": "Second real model initialization and clean track shutdown."
+    },
+    {
+      "name": "CPU fallback",
+      "result": "PASS",
+      "detail": "Blocked first model request deliberately; failed GPU worker was replaced by a real CPU worker and inference succeeded."
+    },
+    {
+      "name": "Missing assets / user retry",
+      "result": "PASS",
+      "detail": "Both initialization attempts fail clearly and release tracks; restoring assets and clicking Start recovers."
+    },
+    {
+      "name": "Uncaught browser errors",
+      "result": "PASS",
+      "detail": "Zero pageerror events."
+    }
+  ],
+  "errors": [],
+  "console": [
+    "W1023 18:53:48.948999 2225904 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.",
+    "W1023 18:53:48.992000 2225904 gl_context.cc:1118] OpenGL error checking is disabled",
+    "INFO: Created TensorFlow Lite XNNPACK delegate for CPU.",
+    "W1023 18:53:54.208999 2225904 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.",
+    "W1023 18:53:54.252000 2225904 gl_context.cc:1118] OpenGL error checking is disabled",
+    "INFO: Created TensorFlow Lite XNNPACK delegate for CPU.",
+    "The resource edge://downloads-hub/mai-message-bar.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "The resource edge://downloads-hub/progress-bar.styles.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "The resource edge://downloads-hub/button.styles.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "The resource edge://downloads-hub/mai-menu-list.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "The resource edge://downloads-hub/mai-menu-item.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "The resource edge://downloads-hub/text.styles.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "The resource edge://downloads-hub/text-input.styles.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "The resource edge://downloads-hub/link.styles.css was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally.",
+    "W1023 18:53:56.468999 2225904 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.",
+    "W1023 18:53:56.512000 2225904 gl_context.cc:1118] OpenGL error checking is disabled",
+    "INFO: Created TensorFlow Lite XNNPACK delegate for CPU.",
+    "W1023 18:53:56.583000 2225904 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.",
+    "W1023 18:53:56.603000 2225904 inference_feedback_manager.cc:121] Feedback manager requires a model with a single signature inference. Disabling support for feedback tensors.",
+    "W1023 18:53:58.564999 2225904 face_landmarker_graph.cc:180] Sets FaceBlendshapesGraph acceleration to xnnpack by default.",
+    "W1023 18:53:58.601999 2225904 gl_context.cc:1118] OpenGL error checking is disabled",
+    "INFO: Created TensorFlow Lite XNNPACK delegate for CPU."
+  ],
+  "externalRequests": [],
+  "modelRequests": [
+    "http://localhost:4173/assets/vision/vision_wasm_internal.js",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.wasm",
+    "http://localhost:4173/assets/face_landmarker.task",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.js",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.wasm",
+    "http://localhost:4173/assets/face_landmarker.task",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.js",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.wasm",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.js",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.wasm",
+    "http://localhost:4173/assets/face_landmarker.task",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.js",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.wasm",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.js",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.wasm",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.js",
+    "http://localhost:4173/assets/vision/vision_wasm_internal.wasm",
+    "http://localhost:4173/assets/face_landmarker.task"
+  ],
+  "limitations": [
+    "Blank test video only; no real webcam or human fatigue validation.",
+    "Headless audio validates scheduling/context state, not speaker audibility."
+  ]
+}

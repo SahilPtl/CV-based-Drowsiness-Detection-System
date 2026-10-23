@@ -1,0 +1,24 @@
+VIGIL third-party runtime assets
+
+MediaPipe Tasks Vision 0.10.32 and pretrained Face Landmarker model float16/1
+Copyright The MediaPipe Authors / Google.
+Apache License 2.0; see Apache-2.0.txt.
+Unmodified model and matching WASM loader/binaries are copied locally.
+The worker contains bundled upstream JavaScript and VIGIL integration code.
+Model source: https://storage.googleapis.com/mediapipe-models/face_landmarker/face_landmarker/float16/1/face_landmarker.task
+Source code: https://github.com/google-ai-edge/mediapipe
+Model card: https://storage.googleapis.com/mediapipe-assets/Model%20Card%20MediaPipe%20Face%20Mesh%20V2.pdf
+
+React and React DOM 19.3.1
+Copyright Meta Platforms, Inc. and affiliates.
+MIT; see React-MIT.txt.
+
+Lucide React 1.61.0
+Copyright Lucide Icons and Contributors.
+ISC; see Lucide-ISC.txt (also includes upstream Feather notices).
+
+Vite and other build/test dependencies are installed from npm with their
+package-provided license metadata. System fonts are used; no font files,
+photographs, third-party dashboards or remote icon resources are included.
+
+VIGIL is an educational project and is not endorsed by these upstream projects.

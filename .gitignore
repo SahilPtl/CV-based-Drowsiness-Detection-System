@@ -1,0 +1,14 @@
+node_modules/
+dist/
+.vite/
+coverage/
+*.log
+public/assets/vision/
+public/assets/face_landmarker.task
+public/assets/worker/
+*.tmp
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db

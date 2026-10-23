@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "appVersion": "1.0.0",
+  "source": "live",
+  "experimental": true,
+  "startedAt": "2026-10-23T18:53:48.995Z",
+  "endedAt": "2026-10-23T18:53:52.451Z",
+  "effectiveConfiguration": {
+    "earThreshold": 0.21,
+    "earHysteresis": 0.03,
+    "smoothingTauMs": 100,
+    "warningMs": 1000,
+    "criticalMs": 2500,
+    "recoveryMs": 800,
+    "maxGapMs": 500,
+    "maxResultAgeMs": 500,
+    "acquisitionMs": 500,
+    "marOpen": 0.55,
+    "marClose": 0.4,
+    "yawnMs": 1500,
+    "yawnRearmMs": 500,
+    "rollingWindowMs": 60000,
+    "rollingMinValidMs": 20000,
+    "rollingMinCoverage": 0.7,
+    "rollingWarnPercent": 30,
+    "rollingClearPercent": 25,
+    "rollingHoldMs": 2000,
+    "calibrationMinMs": 3000,
+    "calibrationMinSamples": 30,
+    "calibrationTimeoutMs": 10000,
+    "calibrationThresholdMin": 0.1,
+    "calibrationThresholdMax": 0.35,
+    "sound": true,
+    "volume": 0.55,
+    "overlay": true
+  },
+  "calibration": null,
+  "changes": [
+    {
+      "t": 1638.0999999940395,
+      "kind": "initial-configuration",
+      "value": {
+        "earThreshold": 0.21,
+        "earHysteresis": 0.03,
+        "smoothingTauMs": 100,
+        "warningMs": 1000,
+        "criticalMs": 2500,
+        "recoveryMs": 800,
+        "maxGapMs": 500,
+        "maxResultAgeMs": 500,
+        "acquisitionMs": 500,
+        "marOpen": 0.55,
+        "marClose": 0.4,
+        "yawnMs": 1500,
+        "yawnRearmMs": 500,
+        "rollingWindowMs": 60000,
+        "rollingMinValidMs": 20000,
+        "rollingMinCoverage": 0.7,
+        "rollingWarnPercent": 30,
+        "rollingClearPercent": 25,
+        "rollingHoldMs": 2000,
+        "calibrationMinMs": 3000,
+        "calibrationMinSamples": 30,
+        "calibrationTimeoutMs": 10000,
+        "calibrationThresholdMin": 0.1,
+        "calibrationThresholdMax": 0.35,
+        "sound": true,
+        "volume": 0.55,
+        "overlay": true
+      }
+    }
+  ],
+  "truncatedChanges": 0,
+  "statistics": {
+    "elapsedMs": 3456.9000000059605,
+    "pausedMs": 0,
+    "calibrationMs": 0,
+    "eligibleMs": 3456.9000000059605,
+    "validMs": 0,
+    "closedMs": 0,
+    "longestClosureMs": 0,
+    "warnings": 0,
+    "critical": 0,
+    "yawns": 0,
+    "coverage": 0
+  },
+  "events": [
+    {
+      "t": 1638.0999999940395,
+      "at": "2026-10-23T18:53:48.995Z",
+      "code": "SESSION_START",
+      "detail": "Live camera session"
+    },
+    {
+      "t": 5095,
+      "at": "2026-10-23T18:53:52.451Z",
+      "code": "SESSION_STOP",
+      "detail": "Camera released; summary frozen"
+    }
+  ],
+  "truncatedEvents": 0,
+  "note": "Educational heuristic prototype; no medical or real-driving validation. No images or raw landmarks."
+}
